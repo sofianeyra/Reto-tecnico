@@ -1,0 +1,49 @@
+
+/* video reference */
+.thumbnail {
+	margin-top: -2%;
+	width: 108px;
+	height: 65px;
+	margin-left: 3%;
+	border-radius: 2px;
+}
+
+.video-title, .channel,
+.views {
+    margin-left: 33%;
+}
+
+.video-title {
+	margin-top: -16%;
+	color: black;
+	font-size: 15px;
+}
+
+.channel {
+    margin-top: -11%;
+}
+
+.views {
+	margin-top: -3%;
+}
+
+.time-b {
+	opacity: 0.8;
+	background-color: black;
+	width: 45px;
+	margin-left: 18%;
+	border-radius: 2px;
+}
+
+.video-time {
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	color: white;
+}
+
+.verified {
+	width:4%;
+	height: 4%;
+}
+

@@ -1,0 +1,59 @@
+/* General Styling */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #fafafa;
+	font-family: 'Open Sans';
+	color: #000;
+	overflow-x: hidden; 
+}
+
+#title {
+	position: absolute;
+	font-size: 16px;
+	font-family: 'Roboto', 'Arial';
+	color: black;
+	left: 4%;
+	top: 12%;
+}
+
+hr {
+	margin: 0;
+	width: 100%;
+	height: 1.2px;
+	background-color: #dadada;
+	border: none;
+}
+
+/* Header */
+header {
+	padding: 30px 0 0 0;
+}
+
+/*slider*/
+#after-slide, #before-slide {
+	position: absolute;
+	background-color: white;
+	margin-top: 13%;
+	border: 2px;
+	border-color: #fafafa;
+	border-radius: 30px;
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(166,166,166,1);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(166,166,166,1);
+	box-shadow: 4px 4px 5px 0px rgba(166,166,166,1);
+}
+
+#after-slide {
+	margin-left: -3%;
+}
+
+#before-slide {
+	margin-left: 91%;
+}
+
+.logo {
+	margin-top: -2%; 
+	width: 10%;
+}
